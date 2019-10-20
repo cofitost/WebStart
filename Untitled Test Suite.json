@@ -28,7 +28,7 @@
                 "options": [
                   {
                     "type": "other",
-                    "value": "file:///var/lib/workspace/SideeX runner test/src/web/html/index.html"
+                    "value": "file://./src/web/html/index.html"
                   }
                 ],
                 "tac": ""

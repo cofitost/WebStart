@@ -16,7 +16,7 @@
     },
 
     "report": {
-        "path": "./reports",
+        "path": "../../reports",
         "snapshot": true
     },
 

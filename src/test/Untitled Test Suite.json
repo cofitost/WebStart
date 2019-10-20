@@ -1,5 +1,5 @@
 {
-  "time": 1571327705846,
+  "time": 1571560578376,
   "version": {
     "sideex": [
       3,
@@ -28,7 +28,7 @@
                 "options": [
                   {
                     "type": "other",
-                    "value": "file://./src/web/html/index.html"
+                    "value": "file:///var/lib/workspace/SideeX runner test/src/web/html/index.html"
                   }
                 ],
                 "tac": ""
@@ -53,7 +53,7 @@
               "breakpoint": false,
               "status": "success",
               "index": 0,
-              "time": 560
+              "time": 492
             },
             {
               "id": "records-1",
@@ -96,11 +96,11 @@
                 "prw": 0,
                 "pdw": 0
               },
-              "screenshot": "image-0",
+              "screenshot": "image-14",
               "breakpoint": false,
               "status": "success",
               "index": 1,
-              "time": 75
+              "time": 98
             },
             {
               "id": "records-2",
@@ -143,11 +143,11 @@
                 "prw": 0,
                 "pdw": 0
               },
-              "screenshot": "image-1",
+              "screenshot": "image-15",
               "breakpoint": false,
               "status": "success",
               "index": 2,
-              "time": 118
+              "time": 93
             },
             {
               "id": "records-3",
@@ -190,11 +190,11 @@
                 "prw": 0,
                 "pdw": 0
               },
-              "screenshot": "image-2",
+              "screenshot": "image-16",
               "breakpoint": false,
               "status": "success",
               "index": 3,
-              "time": 65
+              "time": 62
             },
             {
               "id": "records-4",
@@ -237,11 +237,11 @@
                 "prw": 0,
                 "pdw": 0
               },
-              "screenshot": "image-3",
+              "screenshot": "image-17",
               "breakpoint": false,
               "status": "success",
               "index": 4,
-              "time": 107
+              "time": 112
             },
             {
               "id": "records-5",
@@ -284,11 +284,11 @@
                 "prw": 0,
                 "pdw": 0
               },
-              "screenshot": "image-4",
+              "screenshot": "image-18",
               "breakpoint": false,
               "status": "success",
               "index": 5,
-              "time": 313
+              "time": 287
             },
             {
               "id": "records-6",
@@ -323,19 +323,54 @@
                 "prw": 0,
                 "pdw": 0
               },
-              "screenshot": "image-5",
+              "screenshot": "image-19",
               "breakpoint": false,
               "status": "success",
               "index": 6,
-              "time": 59
+              "time": 66
+            },
+            {
+              "id": "records-7",
+              "name": "assertText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "id=title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "Hello World!"
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "screenshot": "image-20",
+              "breakpoint": false,
+              "status": "success",
+              "index": 7,
+              "time": 64
             }
           ],
           "suiteIdText": "suite-0",
-          "modified": true,
+          "modified": false,
           "status": "success"
         }
       ],
-      "modified": true,
+      "modified": false,
       "status": "default"
     }
   ]

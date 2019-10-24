@@ -1,16 +1,13 @@
 const fs = require('fs');
 const path = require('path');
 
-// const data = JSON.parse(fs.readFileSync("file.json"));
-// const dirPathNum = path.resolve(__dirname).split('/').indexOf('src') - 1;
-console.log(__dirname);
-// console.log(dirPathNum);
-// const dirName = path.resolve(__dirname).split('/')[dirPathNum];
-// console.log(dirName);
+const testCase = "Untitled Test Suite.json"
+const testFile = 'index.html';
+const data = JSON.parse(fs.readFileSync(testCase));
+const mypath = "file:///var/lib/workspace/" + path.basename(path.resolve('../../')) + '/src/web/html/' + testFile;
+console.log(mypath);
 // const nums = data.id.split('.');
 // ++nums[2];
-const filename = __dirname.replace(/^.*[\\\/]/, '');
-console.log(filename);
-// data.id = dirName;
+data.suites[0].cases[0].records[0].target.options[0].value = mypath;
 
-// fs.writeFileSync("file.json", JSON.stringify(data, null, 4));
+fs.writeFileSync(testCase, JSON.stringify(data, null, 4));

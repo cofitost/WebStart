@@ -1,10 +1,10 @@
 const fs = require('fs');
 const path = require('path');
 
-const testCase = "Untitled Test Suite.json"
+const testCase = "src/test/Untitled Test Suite.json"
 const testFile = 'index.html';
 const data = JSON.parse(fs.readFileSync(testCase));
-const mypath = "file:///var/lib/workspace/" + path.basename(path.resolve('../../')) + '/src/web/html/' + testFile;
+const mypath = "file:///var/lib/workspace/" + path.basename(path.resolve('./')) + '/src/web/html/' + testFile;
 console.log(mypath);
 // const nums = data.id.split('.');
 // ++nums[2];

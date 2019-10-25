@@ -1,6 +1,6 @@
 {
     "input": {
-        "testSuites": ["Untitled Test Suite.json"],
+        "testSuites": ["testSuite.json"],
         "variables": []
     },
 

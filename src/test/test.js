@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const testCase = "Untitled Test Suite.json"
+const testCase = "testSuite.json"
 const testFile = 'index.html';
 const data = JSON.parse(fs.readFileSync(testCase));
 const mypath = "file:///var/lib/workspace/" + path.basename(path.resolve('../../')) + '/src/web/html/' + testFile;

@@ -1,5 +1,5 @@
 {
-  "time": 1571560578376,
+  "time": 1571971065636,
   "version": {
     "sideex": [
       3,
@@ -14,11 +14,11 @@
   },
   "suites": [
     {
-      "fileName": "Untitled Test Suite.html",
-      "title": "Untitled Test Suite",
+      "fileName": "Untitled Test Suite 2.html",
+      "title": "Untitled Test Suite 2",
       "cases": [
         {
-          "title": "Untitled Test Case",
+          "title": "testSuite",
           "records": [
             {
               "id": "records-0",
@@ -28,7 +28,7 @@
                 "options": [
                   {
                     "type": "other",
-                    "value": ""
+                    "value": "http://localhost:18888/"
                   }
                 ],
                 "tac": ""
@@ -51,9 +51,7 @@
               },
               "screenshot": "",
               "breakpoint": false,
-              "status": "success",
-              "index": 0,
-              "time": 492
+              "status": "default"
             },
             {
               "id": "records-1",
@@ -85,7 +83,7 @@
                 "options": [
                   {
                     "type": "other",
-                    "value": "133,9"
+                    "value": "108,9"
                   }
                 ],
                 "tac": ""
@@ -96,11 +94,9 @@
                 "prw": 0,
                 "pdw": 0
               },
-              "screenshot": "image-14",
+              "screenshot": "",
               "breakpoint": false,
-              "status": "success",
-              "index": 1,
-              "time": 98
+              "status": "default"
             },
             {
               "id": "records-2",
@@ -143,11 +139,9 @@
                 "prw": 0,
                 "pdw": 0
               },
-              "screenshot": "image-15",
+              "screenshot": "",
               "breakpoint": false,
-              "status": "success",
-              "index": 2,
-              "time": 93
+              "status": "default"
             },
             {
               "id": "records-3",
@@ -179,7 +173,7 @@
                 "options": [
                   {
                     "type": "other",
-                    "value": "36,12"
+                    "value": "58,8"
                   }
                 ],
                 "tac": ""
@@ -190,11 +184,9 @@
                 "prw": 0,
                 "pdw": 0
               },
-              "screenshot": "image-16",
+              "screenshot": "",
               "breakpoint": false,
-              "status": "success",
-              "index": 3,
-              "time": 62
+              "status": "default"
             },
             {
               "id": "records-4",
@@ -237,11 +229,9 @@
                 "prw": 0,
                 "pdw": 0
               },
-              "screenshot": "image-17",
+              "screenshot": "",
               "breakpoint": false,
-              "status": "success",
-              "index": 4,
-              "time": 112
+              "status": "default"
             },
             {
               "id": "records-5",
@@ -279,40 +269,46 @@
                 "tac": ""
               },
               "pwt": {
-                "pbw": 2,
+                "pbw": 0,
                 "paw": 0,
                 "prw": 0,
                 "pdw": 0
               },
-              "screenshot": "image-18",
+              "screenshot": "",
               "breakpoint": false,
-              "status": "success",
-              "index": 5,
-              "time": 287
+              "status": "default"
             },
             {
               "id": "records-6",
-              "name": "clickAt",
+              "name": "assertText",
               "target": {
-                "usedIndex": 0,
                 "options": [
                   {
+                    "type": "id",
+                    "value": "id=title"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//h1[@id='title']"
+                  },
+                  {
                     "type": "xpath:position",
-                    "value": "//html"
+                    "value": "//h1[1]"
                   },
                   {
                     "type": "css",
-                    "value": "css=html"
+                    "value": "css=#title"
                   }
                 ],
-                "tac": ""
+                "tac": "",
+                "usedIndex": 0
               },
               "value": {
                 "usedIndex": 0,
                 "options": [
                   {
                     "type": "other",
-                    "value": "550,92"
+                    "value": "Hello World!"
                   }
                 ],
                 "tac": ""
@@ -323,54 +319,17 @@
                 "prw": 0,
                 "pdw": 0
               },
-              "screenshot": "image-19",
+              "screenshot": "",
               "breakpoint": false,
-              "status": "success",
-              "index": 6,
-              "time": 66
-            },
-            {
-              "id": "records-7",
-              "name": "assertText",
-              "target": {
-                "usedIndex": 0,
-                "options": [
-                  {
-                    "type": "other",
-                    "value": "id=title"
-                  }
-                ],
-                "tac": ""
-              },
-              "value": {
-                "usedIndex": 0,
-                "options": [
-                  {
-                    "type": "other",
-                    "value": "Hello World!!"
-                  }
-                ],
-                "tac": ""
-              },
-              "pwt": {
-                "pbw": 0,
-                "paw": 0,
-                "prw": 0,
-                "pdw": 0
-              },
-              "screenshot": "image-20",
-              "breakpoint": false,
-              "status": "success",
-              "index": 7,
-              "time": 64
+              "status": "default"
             }
           ],
-          "suiteIdText": "suite-0",
-          "modified": false,
-          "status": "success"
+          "suiteIdText": "suite-2",
+          "modified": true,
+          "status": "default"
         }
       ],
-      "modified": false,
+      "modified": true,
       "status": "default"
     }
   ]

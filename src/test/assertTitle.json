@@ -1,0 +1,324 @@
+{
+  "time": 1573013065359,
+  "version": {
+    "sideex": [
+      3,
+      1,
+      1
+    ],
+    "format": [
+      2,
+      0,
+      0
+    ]
+  },
+  "suites": [
+    {
+      "fileName": "Untitled Test Suite 1.html",
+      "title": "Untitled Test Suite 1",
+      "cases": [
+        {
+          "title": "Untitled Test Case 1",
+          "records": [
+            {
+              "id": "records-0",
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "http://140.134.26.76:28888/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "screenshot": "",
+              "breakpoint": false,
+              "status": "default"
+            },
+            {
+              "id": "records-1",
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=username"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='username']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//input[1]"
+                  },
+                  {
+                    "type": "css",
+                    "value": "css=input[name=\"username\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "67,4"
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "screenshot": "",
+              "breakpoint": false,
+              "status": "default"
+            },
+            {
+              "id": "records-2",
+              "name": "sendKeys",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=username"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='username']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//input[1]"
+                  },
+                  {
+                    "type": "css",
+                    "value": "css=input[name=\"username\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "root"
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "screenshot": "",
+              "breakpoint": false,
+              "status": "default"
+            },
+            {
+              "id": "records-3",
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=password"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='password']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//input[2]"
+                  },
+                  {
+                    "type": "css",
+                    "value": "css=input[name=\"password\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "31,11"
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "screenshot": "",
+              "breakpoint": false,
+              "status": "default"
+            },
+            {
+              "id": "records-4",
+              "name": "sendKeys",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=password"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='password']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//input[2]"
+                  },
+                  {
+                    "type": "css",
+                    "value": "css=input[name=\"password\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "4567"
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "screenshot": "",
+              "breakpoint": false,
+              "status": "default"
+            },
+            {
+              "id": "records-5",
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=continue"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='continue']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//input[3]"
+                  },
+                  {
+                    "type": "css",
+                    "value": "css=input[name=\"continue\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "screenshot": "",
+              "breakpoint": false,
+              "status": "default"
+            },
+            {
+              "id": "records-6",
+              "name": "assertTitle",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "HW"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "screenshot": "",
+              "breakpoint": false,
+              "status": "default"
+            }
+          ],
+          "suiteIdText": "suite-1",
+          "modified": true,
+          "status": "default"
+        }
+      ],
+      "modified": true,
+      "status": "default"
+    }
+  ]
+}

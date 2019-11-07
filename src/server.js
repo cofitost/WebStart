@@ -3,7 +3,7 @@ const {existsSync} = require('fs');
 var express = require('express');
 var app = express();
 app.use(express.static('src/web/html')); //__dir and not _dir
-var port = 18888; // you can use any port
+var port = 28888; // you can use any port
 console.log('server on ' + port);
 
 app.all('*', function (req, res) {

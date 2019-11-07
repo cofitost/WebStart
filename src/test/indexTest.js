@@ -15,7 +15,7 @@ describe('測試index.html', () => { //測試區塊，可輸入這個測試檔�
 
   it('開啟作業網頁',async()=> {//此為Selenium server獲取local HTML file，勿操作
     // await driver.get('file:///' + '/var/lib/workspace/' + path.resolve(__dirname).split('/')[dirPathNum] + '/src/web/html/' + testFile);
-    await driver.get('http://140.134.26.76:18888');
+    await driver.get('http://140.134.26.76:28888');
   });
   
   it('測試input功能', async () => { //測試案例test case，可撰寫多個it並說明測試細節，有利於學生讀懂測試錯誤

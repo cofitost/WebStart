@@ -1,5 +1,5 @@
 /*eslint-disable */
-const {Builder, By} = require('selenium-webdriver');
+const {Builder, By, Capabilities} = require('selenium-webdriver');
 const {expect} = require('chai');
 const path = require('path');
 // 上述為宣告Selenium、chai測試框架與方法
@@ -10,11 +10,9 @@ const testFile = 'index.html'; //輸入受測作業檔名 ex:index.html
 
 describe('測試index.html', () => { //測試區塊，可輸入這個測試檔的目的 ex:測試index.html
 
-  var capabilities = {
-    'browserName' : 'Chrome',
-    'resolution' : '1024x768'
-  }
-  const driver = new Builder().usingServer(seleniumServer).withCapabilities(capabilities).build(); //使用chrome browser來測試Web作業
+  let capabilities = Capabilities.chrome();
+  capabilities.set("resolution",'1024x768')
+  const driver = new Builder().forBrowser('chrome').usingServer(seleniumServer).withCapabilities(capabilities).build(); //使用chrome browser來測試Web作業
   const dirPathNum = path.resolve(__dirname).split('/').indexOf('src') - 1; //ProgEdu系統判定作業，勿操作
 
   it('開啟作業網頁',async()=> {//此為Selenium server獲取local HTML file，勿操作

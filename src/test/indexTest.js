@@ -11,7 +11,7 @@ const testFile = 'index.html'; //輸入受測作業檔名 ex:index.html
 describe('測試index.html', () => { //測試區塊，可輸入這個測試檔的目的 ex:測試index.html
 
   let capabilities = Capabilities.chrome();
-  capabilities.set("chrome.arguments","-screenwidth 1024 -screenheight 768")
+  capabilities.set("chrome.resolution","-screenwidth 1024 -screenheight 768")
   const driver = new Builder().forBrowser('chrome').usingServer(seleniumServer).withCapabilities(capabilities).build(); //使用chrome browser來測試Web作業
   const dirPathNum = path.resolve(__dirname).split('/').indexOf('src') - 1; //ProgEdu系統判定作業，勿操作
 

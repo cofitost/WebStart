@@ -9,7 +9,7 @@
     "test-suite": "cd src/test && node test.js && node sideex-runner.js --config=\"config.json\"",
     "test-dev": "cd src/test && node sideex-runner.js --config=\"config.json\"",
     "htmlhint": "htmlhint ./src/web/",
-    "stylelint": "stylelint ./src/web/",
+    "stylelint": "stylelint ./src/web/html/ ./src/web/css/",
     "eslint": "eslint --ext .html,.js ./src/web/"
   },
   "author": "",

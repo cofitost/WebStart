@@ -1,10 +1,10 @@
 {
-  "time": 1571971065636,
+  "time": 1574347293881,
   "version": {
     "sideex": [
       3,
-      1,
-      1
+      2,
+      0
     ],
     "format": [
       2,
@@ -14,21 +14,20 @@
   },
   "suites": [
     {
-      "fileName": "Untitled Test Suite 2.html",
-      "title": "Untitled Test Suite 2",
+      "fileName": "Untitled Test Suite.html",
+      "title": "Untitled Test Suite",
       "cases": [
         {
-          "title": "testSuite",
+          "title": "Untitled Test Case",
           "records": [
             {
-              "id": "records-0",
               "name": "open",
               "target": {
                 "usedIndex": 0,
                 "options": [
                   {
                     "type": "other",
-                    "value": "http://localhost:18888/"
+                    "value": "http://localhost:28888/"
                   }
                 ],
                 "tac": ""
@@ -48,13 +47,9 @@
                 "paw": 0,
                 "prw": 0,
                 "pdw": 0
-              },
-              "screenshot": "",
-              "breakpoint": false,
-              "status": "default"
+              }
             },
             {
-              "id": "records-1",
               "name": "clickAt",
               "target": {
                 "usedIndex": 0,
@@ -83,7 +78,7 @@
                 "options": [
                   {
                     "type": "other",
-                    "value": "108,9"
+                    "value": "128,13"
                   }
                 ],
                 "tac": ""
@@ -93,13 +88,9 @@
                 "paw": 0,
                 "prw": 0,
                 "pdw": 0
-              },
-              "screenshot": "",
-              "breakpoint": false,
-              "status": "default"
+              }
             },
             {
-              "id": "records-2",
               "name": "sendKeys",
               "target": {
                 "usedIndex": 0,
@@ -138,13 +129,9 @@
                 "paw": 0,
                 "prw": 0,
                 "pdw": 0
-              },
-              "screenshot": "",
-              "breakpoint": false,
-              "status": "default"
+              }
             },
             {
-              "id": "records-3",
               "name": "clickAt",
               "target": {
                 "usedIndex": 0,
@@ -173,7 +160,7 @@
                 "options": [
                   {
                     "type": "other",
-                    "value": "58,8"
+                    "value": "53,18"
                   }
                 ],
                 "tac": ""
@@ -183,13 +170,9 @@
                 "paw": 0,
                 "prw": 0,
                 "pdw": 0
-              },
-              "screenshot": "",
-              "breakpoint": false,
-              "status": "default"
+              }
             },
             {
-              "id": "records-4",
               "name": "sendKeys",
               "target": {
                 "usedIndex": 0,
@@ -218,7 +201,7 @@
                 "options": [
                   {
                     "type": "other",
-                    "value": "1234"
+                    "value": "root"
                   }
                 ],
                 "tac": ""
@@ -228,13 +211,9 @@
                 "paw": 0,
                 "prw": 0,
                 "pdw": 0
-              },
-              "screenshot": "",
-              "breakpoint": false,
-              "status": "default"
+              }
             },
             {
-              "id": "records-5",
               "name": "clickAt",
               "target": {
                 "usedIndex": 0,
@@ -273,13 +252,9 @@
                 "paw": 0,
                 "prw": 0,
                 "pdw": 0
-              },
-              "screenshot": "",
-              "breakpoint": false,
-              "status": "default"
+              }
             },
             {
-              "id": "records-6",
               "name": "assertText",
               "target": {
                 "options": [
@@ -308,7 +283,7 @@
                 "options": [
                   {
                     "type": "other",
-                    "value": "Hello World!!"
+                    "value": "Hello world!!!!"
                   }
                 ],
                 "tac": ""
@@ -318,19 +293,11 @@
                 "paw": 0,
                 "prw": 0,
                 "pdw": 0
-              },
-              "screenshot": "",
-              "breakpoint": false,
-              "status": "default"
+              }
             }
-          ],
-          "suiteIdText": "suite-2",
-          "modified": true,
-          "status": "default"
+          ]
         }
-      ],
-      "modified": true,
-      "status": "default"
+      ]
     }
   ]
 }

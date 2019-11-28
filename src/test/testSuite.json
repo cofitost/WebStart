@@ -1,5 +1,5 @@
 {
-  "time": 1574347293881,
+  "time": 1574671090072,
   "version": {
     "sideex": [
       3,
@@ -27,7 +27,7 @@
                 "options": [
                   {
                     "type": "other",
-                    "value": "http://localhost:28888/"
+                    "value": "http://140.134.26.76:28888/"
                   }
                 ],
                 "tac": ""
@@ -78,7 +78,7 @@
                 "options": [
                   {
                     "type": "other",
-                    "value": "128,13"
+                    "value": "143,6"
                   }
                 ],
                 "tac": ""
@@ -160,7 +160,7 @@
                 "options": [
                   {
                     "type": "other",
-                    "value": "53,18"
+                    "value": "57,10"
                   }
                 ],
                 "tac": ""
@@ -257,33 +257,21 @@
             {
               "name": "assertText",
               "target": {
+                "usedIndex": 0,
                 "options": [
                   {
-                    "type": "id",
+                    "type": "other",
                     "value": "id=title"
-                  },
-                  {
-                    "type": "xpath:attributes",
-                    "value": "//h1[@id='title']"
-                  },
-                  {
-                    "type": "xpath:position",
-                    "value": "//h1[1]"
-                  },
-                  {
-                    "type": "css",
-                    "value": "css=#title"
                   }
                 ],
-                "tac": "",
-                "usedIndex": 0
+                "tac": ""
               },
               "value": {
                 "usedIndex": 0,
                 "options": [
                   {
                     "type": "other",
-                    "value": "Hello world!!!!"
+                    "value": "Hello World!!!!"
                   }
                 ],
                 "tac": ""

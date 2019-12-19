@@ -6,8 +6,8 @@
   "scripts": {
     "start": "nodemon node src/server.js",
     "test": "node_modules/.bin/mocha ./src/test/indexTest.js --timeout 100000",
-    "test-suite": "cd src/test && node test.js && node sideex-runner.js --config=\"config.json\"",
-    "test-dev": "cd src/test && node sideex-runner.js --config=\"config.json\"",
+    "test-suite": "cd src/test && node test.js && node sideex-runner.js --config settings.json",
+    "test-dev": "cd src/test && node sideex-runner.js --config settings.json",
     "htmlhint": "htmlhint ./src/web/",
     "stylelint": "stylelint ./src/web/**/*.html ./src/web/**/*.css",
     "eslint": "eslint --ext .html,.js ./src/web/"

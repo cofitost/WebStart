@@ -1,10 +1,10 @@
 {
-  "time": 1574671090072,
+  "time": 1576728572585,
   "version": {
     "sideex": [
       3,
       2,
-      0
+      1
     ],
     "format": [
       2,
@@ -14,11 +14,11 @@
   },
   "suites": [
     {
-      "fileName": "Untitled Test Suite.html",
-      "title": "Untitled Test Suite",
+      "fileName": "testSuite.html",
+      "title": "testSuite",
       "cases": [
         {
-          "title": "Untitled Test Case",
+          "title": "Untitled Test Case 1",
           "records": [
             {
               "name": "open",
@@ -59,12 +59,12 @@
                     "value": "name=username"
                   },
                   {
-                    "type": "xpath:attributes",
-                    "value": "//input[@name='username']"
-                  },
-                  {
                     "type": "xpath:position",
                     "value": "//input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='username']"
                   },
                   {
                     "type": "css",
@@ -78,7 +78,7 @@
                 "options": [
                   {
                     "type": "other",
-                    "value": "143,6"
+                    "value": "1189,22"
                   }
                 ],
                 "tac": ""
@@ -100,12 +100,12 @@
                     "value": "name=username"
                   },
                   {
-                    "type": "xpath:attributes",
-                    "value": "//input[@name='username']"
-                  },
-                  {
                     "type": "xpath:position",
                     "value": "//input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='username']"
                   },
                   {
                     "type": "css",
@@ -141,12 +141,12 @@
                     "value": "name=password"
                   },
                   {
-                    "type": "xpath:attributes",
-                    "value": "//input[@name='password']"
-                  },
-                  {
                     "type": "xpath:position",
                     "value": "//input[2]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='password']"
                   },
                   {
                     "type": "css",
@@ -160,7 +160,7 @@
                 "options": [
                   {
                     "type": "other",
-                    "value": "57,10"
+                    "value": "249,19"
                   }
                 ],
                 "tac": ""
@@ -182,12 +182,12 @@
                     "value": "name=password"
                   },
                   {
-                    "type": "xpath:attributes",
-                    "value": "//input[@name='password']"
-                  },
-                  {
                     "type": "xpath:position",
                     "value": "//input[2]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='password']"
                   },
                   {
                     "type": "css",
@@ -223,12 +223,12 @@
                     "value": "name=continue"
                   },
                   {
-                    "type": "xpath:attributes",
-                    "value": "//input[@name='continue']"
-                  },
-                  {
                     "type": "xpath:position",
                     "value": "//input[3]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='continue']"
                   },
                   {
                     "type": "css",
@@ -248,20 +248,32 @@
                 "tac": ""
               },
               "pwt": {
-                "pbw": 0,
+                "pbw": 2,
                 "paw": 0,
                 "prw": 0,
                 "pdw": 0
               }
             },
             {
-              "name": "assertText",
+              "name": "clickAt",
               "target": {
                 "usedIndex": 0,
                 "options": [
                   {
-                    "type": "other",
+                    "type": "id",
                     "value": "id=title"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//h1[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//h1[@id='title']"
+                  },
+                  {
+                    "type": "css",
+                    "value": "css=#title"
                   }
                 ],
                 "tac": ""
@@ -271,7 +283,36 @@
                 "options": [
                   {
                     "type": "other",
-                    "value": "Hello World!!!!"
+                    "value": "82,19"
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              }
+            },
+            {
+              "name": "assertTitle",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "HelloWorld"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
                   }
                 ],
                 "tac": ""

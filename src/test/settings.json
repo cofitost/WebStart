@@ -1,0 +1,47 @@
+{
+    "input": {
+        "testSuites": ["testSuite.json"],
+        "variables": []
+    },
+
+    "play": {
+        "mode": 2,
+        "entry": "",
+        "noLog": false,
+        "speed": 3,
+        "period": {
+            "time": -1,
+            "maxNum": -1
+        }
+    },
+
+    "report": {
+        "path": "../../reports/",
+        "snapshot": true
+    },
+
+    "webdriver": {
+        "configs": [
+            {
+                "serverUrl": "http://140.134.26.76:38100",
+                "type": "selenium",
+                "browsers":[
+                    {
+                        "active": true,
+                        "capability": {
+                            "browserName": "chrome",
+                            "goog:chromeOptions": {
+                                "args": [
+                                    "headless",
+                                    "disable-gpu",
+                                    "window-size=1080,720",
+                                    "no-sandbox"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

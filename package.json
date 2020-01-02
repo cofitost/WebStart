@@ -27,6 +27,7 @@
     "htmlhint": "*",
     "mocha": "^6.0.2",
     "npm": "*",
+    "selenium-grid": "^0.5.0",
     "selenium-webdriver": "*",
     "stylelint": "*",
     "stylelint-config-standard": "*"
